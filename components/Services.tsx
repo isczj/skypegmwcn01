@@ -1,4 +1,5 @@
 ﻿import { Globe, Palette, Heart, Code, Database, Cpu } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Services() {
   const services = [
@@ -41,7 +42,7 @@ export default function Services() {
   ]
 
   return (
-    <section className="py-20 bg-white">
+    <section id="services" className="py-20 bg-white">
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -50,6 +51,14 @@ export default function Services() {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             提供全方位的企业门户解决方案，满足不同行业的个性化需求
           </p>
+          <div className="mt-8">
+            <Link 
+              href="/articles" 
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              了解更多案例
+            </Link>
+          </div>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

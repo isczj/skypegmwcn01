@@ -1,4 +1,5 @@
 ﻿import { ArrowRight, Play } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -17,10 +18,10 @@ export default function Hero() {
               助力企业数字化转型，提升品牌影响力。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary flex items-center justify-center">
-                立即咨询
+              <Link href="/articles" className="btn-primary flex items-center justify-center">
+                查看文章
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </button>
+              </Link>
               <button className="btn-secondary flex items-center justify-center">
                 <Play className="mr-2 h-4 w-4" />
                 观看演示

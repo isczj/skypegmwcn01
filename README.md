@@ -335,8 +335,8 @@ NEXT_PUBLIC_SITE_NAME=企业门户网站
 // app/layout.tsx
 export const metadata: Metadata = {
   title: '企业门户网站',
-  description: '专业的艺术培训、医疗健康等企业门户网站',
-  keywords: '企业门户,艺术培训,医疗健康,CMS'
+  description: '专业医疗健康的艺术培训、等企业门户网站',
+  keywords: '企业门户,医疗健康,艺术培训,CMS'
 }
 ```
 
