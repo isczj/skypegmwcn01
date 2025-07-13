@@ -23,7 +23,7 @@ access: "undefined"
 
 vars: # 全局变量
   region: "cn-hangzhou"
-  functionName: "next01"
+  functionName: "next02"
   service:
     name: "web-framework"
     description: 'Serverless Devs Web Framework Service'
